@@ -21,10 +21,8 @@
 
 To install, follow the steps below.
 ```bash
-# Instalar as dependências
 $ yarn ou init install
 
-# Iniciar o projeto
 $ yarn start ou init start
 ```
 Em src/services/firebase.js adicione as configurações do seu firebase
