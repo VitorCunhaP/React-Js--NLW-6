@@ -16,54 +16,32 @@
 
 <br>
 
-## 🧪 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## Installation
 
-- [React](https://reactjs.org)
-- [Firebase](https://firebase.google.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-
-## 🚀 Como executar
-
-Clone o projeto e acesse a pasta do mesmo.
-
-```bash
-$ git clone https://github.com/rocketseat-education/nlw-06-reactjs
-$ cd nlw-06-reactjs
-```
-
-Para iniciá-lo, siga os passos abaixo:
+To install, follow the steps below.
 ```bash
 # Instalar as dependências
-$ yarn
+$ yarn ou init install
 
 # Iniciar o projeto
-$ yarn start
+$ yarn start ou init start
 ```
-O app estará disponível no seu browser pelo endereço http://localhost:3000.
+Em src/services/firebase.js adicione as configurações do seu firebase
 
-Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database.
+## Project
 
-## 💻 Projeto
+Letmeask is perfect for content creators to create Q&A rooms with their audience in a very organized and democratic way.
 
-Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática. 
+This is a project developed during the **[Next Level Week Together](https://nextlevelweek.com/)**, presented from the 20th to the 27th of June 2021.
 
-Este é um projeto desenvolvido durante a **[Next Level Week Together](https://nextlevelweek.com/)**, apresentada dos dias 20 a 27 de Junho de 2021.
+## Functionalities
+
++ Create a room with google login.
++ Invite people through the custom room link.
++ Answer, delete and highlight user questions.
++ Close the room.
++ Enter an existing room with its id.
++ Send your question after logging in with google.
 
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através do link abaixo:
-
-- [Layout Web](https://www.figma.com/community/file/1009824839797878169/Letmeask) 
-
-Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
-
-## 📝 License
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
----
-
-Feito com 💜 by Rocketseat 👋🏻 [Participe da nossa comunidade](https://discord.gg/gKUVrzrPrU)
